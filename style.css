@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@700&family=Jost:wght@300;400;600&family=Noto+Sans&family=Oswald:wght@400;500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&family=Press+Start+2P&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+
+body h1{
+    color: #5A06C9;
+}
+
+.imgPWA{
+    width: 50vh;
+}
+
+@media screen and (max-width: 600px) {
+    .imgPWA{
+        width: 90vw;
+    }
+}
+
