@@ -10,11 +10,20 @@
     
     <link rel="manifest" href="manifest.json">
     <!-- Manifest for Apple devices -->
-    
+
 </head>
 <body>
-    <h1>Welcome to my first </h1>
+    <h1>Welcome to my first PWA</h1>
     <div class="imgPWA"><img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Progressive_Web_Apps_Logo.svg/1200px-Progressive_Web_Apps_Logo.svg.png" alt="PWA"></div>
     <h3>Checkout the manifest.json and the icons</h3>
+
+
+    <script>
+        // Code that is used to delete once for all the 000webhost banner
+        window.onload = _ => {
+            let childBody = document.body.getElementsByTagName('div'); 
+            (childBody[(childBody.length)-1]).remove();
+        }
+    </script>
 </body>
 </html>
